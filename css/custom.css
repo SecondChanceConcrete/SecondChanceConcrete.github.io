@@ -1,0 +1,188 @@
+header {
+  background-color:grey;
+}
+.dropdown-menu{
+  background-color:#222222;
+}
+#titleSCCMobile{
+  margin: auto;
+}
+
+#titleSCCDesktop{
+  margin: auto;
+}
+
+/*Set margins for carousel in mobile view*/
+#myCarousel{
+    margin-top: 10vh;
+    margin-bottom: 0;
+}
+
+.carouselPic{
+  height:auto;
+}
+/*Set margins for carousel in tabet view and adjust header size*/
+@media (min-width: 370px) {
+  header {
+    height: 100%;
+  }
+  
+  #myCarousel{
+    margin-top: 10vh;
+    margin-bottom:0;
+  }
+  
+}
+
+/*Set margins for carousel in desktop view and adjust header size*/
+@media (min-width: 768px) {
+  header {
+    background-color:grey;
+    height: 100%;
+  }
+  
+  #myCarousel{
+    margin-top: 12vh;
+    margin-bottom:0;
+  }
+
+}
+
+/*Hide list buttons on bottom of carousel when in mobile*/
+.carousel-indicators li{
+  display:none;
+}
+
+/*Display list buttons on bottom of carousel in desktop*/
+@media (min-width: 768px) {
+  .carousel-indicators li{
+    display: inline-block;
+  }
+}
+
+/*Adjust Before After at bottom of carousel to fit mobile*/
+.before-after h6 {
+      margin: 0;
+      width: 50%;
+      background: rgba(0, 0, 0, .7);
+      display: block;
+      float: left;
+      padding: 12px 0;
+      font-weight: 400;
+      font-size: 1em;
+      text-align: center;
+      color: #fff
+  }
+  
+  .before-after h6.before {
+      border-bottom-left-radius: 6px
+  }
+  
+  .before-after h6.after {
+      border-bottom-right-radius: 6px
+  }
+
+/*Enlarge Before After at bottom of carousel when in desktop view*/
+@media (min-width: 768px) {
+  .before-after h6 {
+      margin: 0;
+      width: 50%;
+      background: rgba(0, 0, 0, .7);
+      display: block;
+      float: left;
+      padding: 20px 0;
+      font-weight: 400;
+      font-size: 2em;
+      text-align: center;
+      color: #fff
+  }
+  
+  .before-after h6.before {
+      border-bottom-left-radius: 6px
+  }
+  
+  .before-after h6.after {
+      border-bottom-right-radius: 6px
+  }
+}
+
+/*Services Section*/
+.serviceImages{
+  max-width:100%;
+}
+
+.services {
+  margin-bottom:2%;
+}
+
+/*Sierra Stone section*/
+#sierraStone{
+  background-color:grey;
+}
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+    font-weight: bold;
+}
+
+/*EnduraFlake section*/
+#enduraFlake{
+  background-color: grey;
+}
+
+/*Portfolio*/
+/*Standardize picture size in desktop view*/
+@media (min-width: 768px) {
+  .portfolioPic{
+    max-width:100%;
+    height:290px;
+  }
+}
+
+/*Contact Form Text Area*/
+.contactSubHeading{
+  color:white;
+}
+
+.phoneNumber{
+  color:rgba(255, 0, 0, 0.75);
+}
+
+/*Make the placholder text standout*/
+textarea::-webkit-input-placeholder {
+color: grey !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+color: grey !important;
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: grey !important;
+}
+ 
+textarea:-ms-input-placeholder {
+color: grey !important;
+}
+
+
+input::-webkit-input-placeholder {
+color: grey !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: grey !important;
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: grey !important;
+}
+ 
+input:-ms-input-placeholder {
+color: grey !important;
+}
+
+/**/
